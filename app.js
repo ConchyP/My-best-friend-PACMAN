@@ -9,8 +9,6 @@ const movePacman = (e) => {
   e.target.style.visibility = "hidden";
 };
 
-
-
 const eatFantasmito = (e) => {
   movePacman(e);
   count++;
@@ -44,10 +42,9 @@ function addPoints(points) {
 
   if (newPoints >= 5000) {
     clearInterval(interval);
-    const gameOver = document.createElement("h2");
-    gameOver.textContent = "Game Over";
+    const gameOver = document.createElement("h1");
+    gameOver.textContent = "GAME OVER";
     gameOver.className = "game-over";
     document.body.appendChild(gameOver);
   }
 }
-
