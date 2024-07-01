@@ -1,8 +1,67 @@
-img {
+
+/* body {
+    background-image: url("/images/fondo-pacman.jpg");
+}
+
+.container header {
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.tittle{
+    display: grid;
+    grid-column: 2 / 4;
+    width: 200px;
+    height: 200px;
+
+ }
+ .pacman{
+    display: grid;
+    grid-column: 5 / 7;
     width: 100px;
     height: 100px;
-    position: absolute;
-    left: 50%;
-    display: block;
+ } 
 
+ #counter {
+    display: grid;
+    grid-column: 8 / 10;
+    font-size: 2rem;
+    color: yellow;
+} */
+
+body {
+    background-image: url("/images/fondo-pacman.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.tittle {
+    grid-column: 2 / 4;
+    width: 200px;
+    height: 200px;
+}
+
+.pacman {
+    grid-column: 5 / 7;
+    width: 100px;
+    height: 100px;
+}
+
+#counter {
+    grid-column: 8 / 10;
+    font-size: 2rem;
+    color: yellow;
+    text-align: right;
 }
