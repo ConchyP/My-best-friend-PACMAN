@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>My best friend: PACMAN</title>
-</head>
-<body>
-    <header class="container header">
-            <img class="tittle" src="./images/pac-man-logo-png-transparent.png" alt="logo tittle pacman">
-            <img class="pacman" src="./images/pac-man-logo.jpg" alt="pacman">
-    <div id="counter">0000</div>
+  </head>
+  <body>
+    <header class="container">
+      <img
+        class="tittle"
+        src="./images/pac-man-logo-png-transparent-good.png"
+        alt="logo-tittle pacman"
+      />
+      <img
+        class="logo-pacman"
+        src="./images/pac-man-logo.png"
+        alt="logo-pacman"
+      />
+        
+      <div id="counter">SCORE 0000</div>
     </header>
- 
 
-    <audio autoplay src="./audio/Pacman-Game-Start-Sound (1).mp3" type="audio/mp3">
-    </audio>
+    <div id="pacman-container" class="pacman-container">
+      <img class="pacman" id="pacman" src="./images/pacman.png" alt="pacman" />
+      <img
+        class="fantasmito"
+        id="fantasmito"
+        src="./images/fantasmito.png"
+        alt="fantasmito"
+      />
+    </div>
+
+    <audio
+      autoplay
+      src="./audio/Pacman-Game-Start-Sound (1).mp3"
+      type="audio/mp3"
+    ></audio>
     <script src="app.js"></script>
-    </body>
+  </body>
 </html>

@@ -1,67 +1,56 @@
 
-/* body {
-    background-image: url("/images/fondo-pacman.jpg");
-}
-
-.container header {
-    display:grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-.tittle{
-    display: grid;
-    grid-column: 2 / 4;
-    width: 200px;
-    height: 200px;
-
- }
- .pacman{
-    display: grid;
-    grid-column: 5 / 7;
-    width: 100px;
-    height: 100px;
- } 
-
- #counter {
-    display: grid;
-    grid-column: 8 / 10;
-    font-size: 2rem;
-    color: yellow;
-} */
 
 body {
-    background-image: url("/images/fondo-pacman.jpg");
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+  background-image: url("/images/fondo-pacman.jpg");
+  max-width: max-content;
+  max-height: max-content;
+
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    align-items: center;
-    width: 100%;
-    padding: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+
 }
 
 .tittle {
-    grid-column: 2 / 4;
-    width: 200px;
-    height: 200px;
+  width: 500px;
+  height: auto;
+  
+}
+.logo-pacman {
+  width: 300px;
+  height: 100px;
 }
 
 .pacman {
-    grid-column: 5 / 7;
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
+.fantasmito {
+  height: 100px;
+  width: 100px;
+}
+
+.cherry {
+  height: 100px;
+  width: 100px;
+}
+
+
 #counter {
-    grid-column: 8 / 10;
-    font-size: 2rem;
-    color: yellow;
-    text-align: right;
+  text-align: center;
+  margin-right: 10%;
+  font-size: 3rem;
+  color: yellow;
+  margin-left: 20%;
+  margin-top: 50px;
+  
+}
+
+.pacman-container {
+  margin-left: 40%;
+  margin-top: 10%;
 }
