@@ -50,6 +50,13 @@ body {
   
 }
 
+.game-over{
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  color: yellow;
+}
+
 .pacman-container {
   margin-left: 40%;
   margin-top: 10%;
