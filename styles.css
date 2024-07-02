@@ -1,9 +1,7 @@
 
 
 body {
-  background-image: url("/images/fondo-pacman.jpg");
-  max-width: max-content;
-  max-height: max-content;
+  background-image: url("/public/images/fondo-pacman.jpg");
 
 }
 
@@ -42,10 +40,10 @@ body {
 
 #counter {
   text-align: center;
-  margin-right: 10%;
+  margin-right: 20%;
   font-size: 3rem;
   color: yellow;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-top: 50px;
   
 }

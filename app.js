@@ -14,7 +14,7 @@ const eatFantasmito = (e) => {
   count++;
   if (count % 3 === 0) {
     const cherry = document.createElement("img");
-    cherry.src = "./images/cherry.png";
+    cherry.src = "./public/images/cherry.png";
     cherry.className = "cherry";
     cherry.addEventListener("click", (e) => {
       movePacman(e);
@@ -29,7 +29,7 @@ fantasmito.addEventListener("click", eatFantasmito);
 
 const interval = setInterval(() => {
   const newFantasmito = document.createElement("img");
-  newFantasmito.src = "./images/fantasmito.png";
+  newFantasmito.src = "./public/images/fantasmito.png";
   newFantasmito.className = "fantasmito";
   newFantasmito.addEventListener("click", eatFantasmito);
   document.getElementById("pacman-container").append(newFantasmito);
@@ -48,3 +48,4 @@ function addPoints(points) {
     document.body.appendChild(gameOver);
   }
 }
+
